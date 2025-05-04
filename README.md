@@ -1,0 +1,1 @@
+THIS SCRIPT IS NOT OWNED BY ME. ITS JUST MODIFIED BY ME WITH MY ASSETS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

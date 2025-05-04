@@ -120,7 +120,7 @@ UICorner.Parent = MainFrame
 local Title = Instance.new("TextLabel")
 Title.Size = UDim2.new(1, 0, 0, 40)
 Title.Position = UDim2.new(0, 0, 0, 0)
-Title.Text = "Super Ring Parts V60606"
+Title.Text = "SRP V60606"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255) -- White
 Title.BackgroundColor3 = Color3.fromRGB(25, 25, 25) -- Little dark green/GRAYYY
 Title.Font = Enum.Font.Fondamento -- More elegant font
@@ -377,7 +377,7 @@ end)
 ToggleButton.MouseButton1Click:Connect(function()
     ringPartsEnabled = not ringPartsEnabled
     ToggleButton.Text = ringPartsEnabled and "Ring Parts On" or "Ring Parts Off"
-    ToggleButton.BackgroundColor3 = ringPartsEnabled and Color3.fromRGB(30, 30, 30) or Color3.fromRGB(30, 30, 30)
+    ToggleButton.BackgroundColor3 = ringPartsEnabled and Color3.fromRGB(255, 255, 255) or Color3.fromRGB(255, 255, 255)
     playSound("178038408")
 end)
 

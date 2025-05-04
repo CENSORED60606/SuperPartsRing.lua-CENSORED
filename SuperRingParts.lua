@@ -97,7 +97,7 @@ local function playSound(soundId)
 end
 
 -- Play initial sound
-playSound("106699159557572")
+playSound("8612614279")
 
 -- GUI Creation
 local ScreenGui = Instance.new("ScreenGui")
@@ -239,7 +239,7 @@ MinimizeButton.MouseButton1Click:Connect(function()
         RadiusDisplay.Visible = true
         Watermark.Visible = true
     end
-    playSound("7370677925")
+    playSound("6895079853")
 end)
 
 -- Make GUI draggable
@@ -384,13 +384,13 @@ end)
 DecreaseRadius.MouseButton1Click:Connect(function()
     radius = math.max(0, radius - 5)
     RadiusDisplay.Text = "Radius: " .. radius
-    playSound("178038408")
+    playSound("7370677925")
 end)
 
 IncreaseRadius.MouseButton1Click:Connect(function()
     radius = math.min(10000, radius + 5)
     RadiusDisplay.Text = "Radius: " .. radius
-    playSound("178038408")
+    playSound("7370677925")
 end)
 
 -- Get player thumbnail

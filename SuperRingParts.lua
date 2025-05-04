@@ -97,7 +97,7 @@ local function playSound(soundId)
 end
 
 -- Play initial sound
-playSound("2865227271")
+playSound("178038408")
 
 -- GUI Creation
 local ScreenGui = Instance.new("ScreenGui")
@@ -239,7 +239,7 @@ MinimizeButton.MouseButton1Click:Connect(function()
         RadiusDisplay.Visible = true
         Watermark.Visible = true
     end
-    playSound("12221967")
+    playSound("7370677925")
 end)
 
 -- Make GUI draggable
@@ -394,28 +394,28 @@ IncreaseRadius.MouseButton1Click:Connect(function()
 end)
 
 -- Get player thumbnail
-local userId = Players:GetUserIdFromNameAsync("Robloxlukasgames")
+local userId = Players:GetUserIdFromNameAsync("IchBimsDerMukki")
 local thumbType = Enum.ThumbnailType.HeadShot
 local thumbSize = Enum.ThumbnailSize.Size420x420
 local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Super ring parts V4",
-    Text = "enjoy",
+    Title = "SuperRingV60606",
+    Text = "FETCH ME THEIR SOLS!",
     Icon = content,
     Duration = 5
 })
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Credits",
+    Title = "SuperRingV60606",
     Text = "Original By Yumm Scriptblox",
     Icon = content,
     Duration = 5
 })
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Credits",
-    Text = "Edited By lukas",
+    Title = "SuperRingV60606",
+    Text = "CUSTOMIZED BY CENSORED",
     Icon = content,
     Duration = 5
 })
@@ -429,6 +429,3 @@ local function SendChatMessage(message)
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
     end
 end
-
--- Send the chat message
-SendChatMessage("Super Ring Parts V5 By lukas")

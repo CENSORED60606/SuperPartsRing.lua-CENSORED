@@ -108,7 +108,7 @@ ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
 local MainFrame = Instance.new("Frame")
 MainFrame.Size = UDim2.new(0, 220, 0, 190)
 MainFrame.Position = UDim2.new(0.5, -110, 0.5, -95)
-MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Green/BLACK NIGGA
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0) -- Green/BLACK
 MainFrame.BorderSizePixel = 3
 MainFrame.Parent = ScreenGui
 
@@ -137,7 +137,7 @@ ToggleButton.Size = UDim2.new(0.8, 0, 0, 35)
 ToggleButton.Position = UDim2.new(0.1, 0, 0.3, 0)
 ToggleButton.Text = "Off"
 ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Red/WHITEEEEEEE
-ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255) -- White
+ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0) -- White/BLACKKKKKKKK
 ToggleButton.Font = Enum.Font.Fondamento
 ToggleButton.TextSize = 15
 ToggleButton.Parent = MainFrame

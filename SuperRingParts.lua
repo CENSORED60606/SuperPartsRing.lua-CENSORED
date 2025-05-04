@@ -97,7 +97,7 @@ local function playSound(soundId)
 end
 
 -- Play initial sound
-playSound("178038408")
+playSound("106699159557572")
 
 -- GUI Creation
 local ScreenGui = Instance.new("ScreenGui")
@@ -377,20 +377,20 @@ end)
 ToggleButton.MouseButton1Click:Connect(function()
     ringPartsEnabled = not ringPartsEnabled
     ToggleButton.Text = ringPartsEnabled and "Ring Parts On" or "Ring Parts Off"
-    ToggleButton.BackgroundColor3 = ringPartsEnabled and Color3.fromRGB(50, 205, 50) or Color3.fromRGB(160, 82, 45)
-    playSound("12221967")
+    ToggleButton.BackgroundColor3 = ringPartsEnabled and Color3.fromRGB(30, 30, 30) or Color3.fromRGB(30, 30, 30)
+    playSound("178038408")
 end)
 
 DecreaseRadius.MouseButton1Click:Connect(function()
     radius = math.max(0, radius - 5)
     RadiusDisplay.Text = "Radius: " .. radius
-    playSound("12221967")
+    playSound("178038408")
 end)
 
 IncreaseRadius.MouseButton1Click:Connect(function()
     radius = math.min(10000, radius + 5)
     RadiusDisplay.Text = "Radius: " .. radius
-    playSound("12221967")
+    playSound("178038408")
 end)
 
 -- Get player thumbnail
